@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const player = await createYoutube();
     const mindarThree = new window.MINDAR.IMAGE.MindARThree({
       container: document.body,
-      imageTargetSrc: 'Website/assets/targets/hoodie1/hoodie1.mind',
+      imageTargetSrc: 'assets/targets/hoodie1/hoodie1.mind',
     });
 
     const { renderer, cssRenderer, scene, cssScene, camera } = mindarThree;
