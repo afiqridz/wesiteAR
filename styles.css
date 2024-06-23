@@ -84,22 +84,28 @@ main {
 }
 
 .hero {
+    position: relative;
+    height: 100vh;
+    background-image: url('images/backgroundshoes.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
     text-align: center;
-    padding: 50px 20px;
-    background: url('../../Website/index/images/backgroundshoes.jpg') no-repeat center center/cover;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    color: #fff;
 }
 
-.hero h1 {
-    font-size: 48px;
-    margin-bottom: 20px;
+.hero-title {
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 0;
 }
 
 .hero p {
-    font-size: 20px;
-    margin-bottom: 30px;
+    font-size: 1.5rem;
+    margin: 20px 0;
 }
 
 .cta-button {
