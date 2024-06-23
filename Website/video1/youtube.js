@@ -1,5 +1,5 @@
 // Import necessary objects and libraries
-import { CSS3DObject } from '../libs/three.js-r132/examples/jsm/renderers/CSS2DRenderer';
+import { CSS3DObject } from '../libs/three.js-r132/examples/jsm/renderers/CSS2DRenderer.js';
 const THREE = window.MINDAR.IMAGE.THREE;
 
 // Function to create a YouTube player
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Create a MindARThree instance with the specified container and image target source
     const mindarThree = new window.MINDAR.IMAGE.MindARThree({
       container: document.body,
-      imageTargetSrc: '../../assets/targets/hoodie1/hoodie1.mind',
+      imageTargetSrc: 'assets/targets/hoodies/hoodie1.mind',
     });
     
     // Extract the renderer, CSS renderer, scene, CSS scene, and camera from the MindARThree instance
